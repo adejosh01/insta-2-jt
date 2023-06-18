@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { Instagram_logo, insta_logo, bigjosh } from "@/public/image";
 import {SearchIcon, PlusCircleIcon, UserGroupIcon, HeartIcon, PaperAirplaneIcon, MenuIcon, HomeIcon} from "@heroicons/react/outline";
 import { signIn, signOut, useSession } from "next-auth/react";
